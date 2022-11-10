@@ -1,0 +1,95 @@
+.admin-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-inline: 0.8rem;
+  padding-bottom: 2.4rem;
+}
+
+.label {
+  color: #fff;
+  font-weight: 500;
+  margin-block: 0.8rem;
+}
+
+.container-colors {
+  display: flex;
+  margin-block: 1.6rem;
+  gap: 2.4rem;
+}
+
+.right {
+  margin-right: 1.6rem;
+}
+
+.btn-register {
+  margin-bottom: 2.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-register svg {
+  margin-left: 0.8rem;
+}
+
+.title {
+  color: #fff;
+  margin-top: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.list {
+  width: 90%;
+  max-width: 60rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgba(36, 36, 36, 0.35);
+  border-radius: 0.4rem;
+  padding-block: 1.4rem;
+  padding-inline: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.preview {
+  margin-bottom: 2.4rem;
+  padding: 0.4rem;
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-delete {
+  border: 1.5px dashed #fff;
+  color: #fff;
+  background-color: #000;
+  padding-block: 0.4rem;
+  padding-inline: 0.8rem;
+  border-radius: 0.4rem;
+}
+
+.animate-pop {
+  animation-duration: 0.5s;
+  animation-name: animate-pop;
+}
+
+@keyframes animate-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.7, 0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
