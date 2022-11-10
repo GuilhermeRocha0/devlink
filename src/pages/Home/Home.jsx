@@ -73,7 +73,7 @@ export default function Home() {
             key={index}
             style={{ backgroundColor: item.bg }}
           >
-            <a href={item.url} target="_blank">
+            <a href={item.url} rel="noopener noreferrer" target="_blank">
               <p className="link-text" style={{ color: item.color }}>
                 {item.name}
               </p>
